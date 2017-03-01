@@ -1,6 +1,6 @@
 <?php
 if(empty($_GET["action"])){
-echo "Stop playing with my code bitch!";
+echo "Stop playing with my code!";
 exit();
 }
 $userVal = $_GET["action"];
@@ -13,7 +13,7 @@ $userVal = $_GET["action"];
 		echo "OFF";
 	}
 	else{
-		echo "Stop playing with my code bitch!";
+		echo "Stop playing with my code!";
 	}
 
 ?>
