@@ -1,0 +1,18 @@
+<div class="text-center">
+	<form>
+		<button type="submit" name="action" id="btnON" value="1" class="btn btn-lg btn-primary">ON</button>
+		<button type="submit" name="action" id="btnOFF" value="2" class="btn btn-lg btn-primary">OFF</button>
+		<br><br>
+		<img class="img-circle" onclick="voiceRec()" src="//i.imgur.com/cHidSVu.gif" />
+		<br>
+	</form>	
+	
+	<big><strong id="transcript"></strong>&nbsp;<small id="transcriptRes"></small></big>
+	<br>
+	<img id="myImage" src="img/bulboff.gif" style="width:100px">
+	<br><br>
+<div class="alert alert-success fade" id="alertSection"><strong id="resultSec"></strong></div>
+</div>
+
+<script src="js/led.js"></script>
+<script src="js/voiceRec.js"></script>
